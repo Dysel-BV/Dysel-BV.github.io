@@ -16,4 +16,5 @@ Describe the correction you would like to see made.
 **Additional context**
 Add any other context about the problem here.
 
-[ ] I will create a pull request for the fix
+**Indicate whether you will provide the fix. If you do not provide the fix, it will be placed on our backlog and we cannot guarantee when it will be picked up**
+- [ ] I will create a pull request for the fix

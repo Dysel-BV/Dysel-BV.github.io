@@ -14,4 +14,4 @@ A clear and concise summary of the reason why you want to add a documentation pa
 Add any other context or screenshots about the documentation request here.
 
 ** Indicate whether you will create  the documentation yourself or want to put it on our backlog. We cannot guarantee when documentation will be created if you decide to put it on our backlog **
-[ ] I will create the documentation myself
+- [ ] I will create the documentation myself
