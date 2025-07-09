@@ -2,7 +2,7 @@
 name: Correction
 about: Create a correction to help us improve our documentation
 title: "[CORRECTION] "
-labels: ''
+labels: correction, review
 assignees: ''
 
 ---
