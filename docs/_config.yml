@@ -1,0 +1,11 @@
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+nav_enabled: true
+
+search_enabled: true
+
+title: "Dysel Help"
+Description: "Help and documentation for Dysel BC."
+
+logo: "/assets/images/Dysel_logo_pay_off_RGB_50%_DarkMode.png"
+favicon_ico: "/assets/images/favicon.png"
