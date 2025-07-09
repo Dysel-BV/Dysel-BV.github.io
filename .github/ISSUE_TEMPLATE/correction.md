@@ -3,7 +3,7 @@ name: Correction
 about: Create a correction to help us improve our documentation
 title: "[CORRECTION] "
 labels: correction, review
-assignees: ''
+assignees: PeterConijn, aharrisdysel
 
 ---
 

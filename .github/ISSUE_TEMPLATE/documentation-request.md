@@ -3,7 +3,7 @@ name: Documentation Request
 about: Suggest an idea for documentation
 title: "[New] "
 labels: enhancement, review
-assignees: ''
+assignees: PeterConijn, aharrisdysel
 
 ---
 
