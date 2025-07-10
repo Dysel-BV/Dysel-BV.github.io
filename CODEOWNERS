@@ -1,2 +1,6 @@
-@PeterConijn
-@aharrisdysel
+# Each line is a file pattern followed by one or more owners.
+# Order is important; the last matching pattern takes the most precedence.
+# CODEOWNERS paths are case sensitive, because GitHub uses a case sensitive file system
+
+# Default owners
+* @dysel-bv/dysel-scribes

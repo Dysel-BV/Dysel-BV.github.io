@@ -1,5 +1,6 @@
 ---
-title: Service
+title: "Service"
+parent: "Dysel BC"
 ---
 
 # Service
