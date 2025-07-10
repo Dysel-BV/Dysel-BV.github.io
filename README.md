@@ -3,12 +3,15 @@ This repository contains documentation for the Dysel BC ERP system and its relat
 
 ## Contribute
 If you would like to contribute to the documentation, you can follow the process below:
-1. Create an issue with the documentation you would like to add
+1. Create an issue with the documentation you would like to add and tick the box indicating you will provide the fix
 2. Await approval by Dysel to create the documentation
 3. Fork the repository to your own GitHub account
 4. Clone the repository and create a branch referencing your issue
 5. Add/modify the documentation in MarkDown (md) format
 6. Submit a pull request
+
+> If you do not provide the fix, the issue will be put on our backlog.  
+> There is no promise or guarantee if and when we get around to picking up your issue
 
 ## Notes
 - The documentation is created in MarkDown: a simple and straightforward markup language. For more information on MarkDown, you can check out [The Markdown Guide](https://www.markdownguide.org/) You can also use existing content for examples.
