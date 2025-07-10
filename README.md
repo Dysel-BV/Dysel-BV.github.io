@@ -17,4 +17,5 @@ If you would like to contribute to the documentation, you can follow the process
 ## More information:
 - Forking repositories: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
 - Visual Studio Code: https://code.visualstudio.com/download
+- Markdown 101: https://www.markdownguide.org/basic-syntax/
 - Website formatting guide: https://just-the-docs.github.io/just-the-docs/

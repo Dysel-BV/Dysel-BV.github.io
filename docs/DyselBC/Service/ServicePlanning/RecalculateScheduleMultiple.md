@@ -1,11 +1,11 @@
 ---
-title: "Recalculate Service Actions for a Single Object"
-parent: "Service"
+title: "Recalculate Service Actions for Multiple Objects"
+parent: "Service Planning"
 ---
 
-# Recalculate Service Action Schedule for Single Object from the Service Action Dispatch Board
+# Recalculate Service Action Schedule for Multiple Objects from the Service Action Dispatch Board
 
-This guide walks you through the steps to recalculate schedules for a selected object on the Service Action Dispatch Board..
+This guide walks you through the steps to recalculate schedules for selected objects on the Service Action Dispatch Board..
 
 ## Step-by-Step Instructions
 
@@ -13,13 +13,13 @@ This guide walks you through the steps to recalculate schedules for a selected o
 
 - Start by navigating to the **Service Action Dispatch Board** page. You can do this by selecting it from the main menu or using the search bar to find it.
 
-### Step 2: Select the Object You Want to Recalculate
+### Step 2: Select the Objects to Recalculate
 
-- Once the Service Action Dispatch Board page opens, find the list of objects. Scroll through the list and select the object that you want to recalculate by clicking on it.
+- Once the Service Action Dispatch Board page opens, find the list of objects. Scroll through the list and select the objects to recalculate. Use Select More to mark multiple lines.
 
 ### Step 3: Recalculate the Schedule
 
-- After selecting the desired entry, find and click on the button labeled **(Re)Calculate Schedule for Current Object**.
+- After selecting the desired objects, find and click on the button labeled **(Re)Calculate Schedule for Selected Objects**.
 
 ### Step 4: Confirm the Action
 
