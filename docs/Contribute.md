@@ -1,9 +1,9 @@
 ---
-Title: "Dysel Learn"
+Title: "Contribute"
 nav_order: 100001
 ---
 
-# Help Us Help You?
+# Contribute
 The Dysel Learn portal is something that we have created to help you help yourself. But we also see this portal as a collaborative effort in which you can help us help you. If you are missing information on this portal, or think that existing information can be more extensive, we invite you to submit a correction or even a new page.
 
 ## How to contribute
@@ -14,11 +14,11 @@ There, you can create an issue and, if you want, create a pull request with the 
 ### The contrbution process
 The documentation is created in MarkDown: a simple and straightforward markup language. For more information on MarkDown, you can check out [The Markdown Guide](https://www.markdownguide.org/) You can also use existing content for examples.
 In order to maintain consistency in our documentation, we have instituted a layred process:
-    1. Create an issue (either for a correction or for new documentation) and describe what you would like to change or add
-    2. Indicate on the issue whether you are going to provide the fix or addition yourself
-    3. Submit the issue for approval by Dysel
-    4. If your issue is approved and you have elected to provide the fix, you can submit a pull request with the fix for review
-    5. Await the review and resolve any comments by the reviewers
+1. Create an issue (either for a correction or for new documentation) and describe what you would like to change or add
+2. Indicate on the issue whether you are going to provide the fix or addition yourself
+3. Submit the issue for approval by Dysel
+4. If your issue is approved and you have elected to provide the fix, you can submit a pull request with the fix for review
+5. Await the review and resolve any comments by the reviewers
 
 ### Review other submissions
 In addition to creating content, you can also help us by helping us by [reviewing outstanding pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews). We can all use an extra pair of eyes sometimes.
