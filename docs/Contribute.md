@@ -20,5 +20,8 @@ In order to maintain consistency in our documentation, we have instituted a layr
 4. If your issue is approved and you have elected to provide the fix, you can submit a pull request with the fix for review
 5. Await the review and resolve any comments by the reviewers
 
+> If you do not elect to provide the fix and your issue is approved, it will go on our backlog.  
+> In that case, there will be no guarantee if or when it will be picked up by our documentation team
+
 ### Review other submissions
 In addition to creating content, you can also help us by helping us by [reviewing outstanding pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews). We can all use an extra pair of eyes sometimes.
