@@ -47,7 +47,7 @@ system. The filter information entered will determine what objects are updated.
 
 ### Step 6: Set the Job Code Setup
 
-  1. In the **Job Code Setup** field, enter the code manuall or select the code from the **list** by **clicking on it**.
+  1. In the **Job Code Setup** field, enter the code manually or select the code from the **list** by **clicking on it**.
 
 ### Step 7: Complete and Save the Update
 
