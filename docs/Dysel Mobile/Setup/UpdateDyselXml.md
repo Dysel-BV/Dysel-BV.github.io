@@ -4,7 +4,7 @@ parent: "Dysel Mobile Setup"
 ---
 
 # Dysel Mobile XML Import and Update
-The interface on the mobile device can be updated centrally. The update is done by importing XML configuration files into the Dysel Mobele app. This instruction will walk you through this process step by step.
+The interface on the mobile device can be updated centrally. The update is done by importing XML configuration files into the Dysel Mobile app. This instruction will walk you through this process step by step.
 
 ## Importing the Configuration the First Time
 
