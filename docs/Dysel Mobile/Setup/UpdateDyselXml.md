@@ -49,6 +49,15 @@ You will receive or can request the XML file from Dysel. When requesting an XML 
 1. If the version is 202505 or older, import the 202506 XML using the steps for a new customer. 
 2. Import each subsequent version incrementally. For example, if upgrading from version 202506 to 202508, first import 202507 and then 202508. 
 
+#### Importing the Full File
+If you are importing the full xml file, you can follow steps 1 through 5 in the process for importing the first time.
+
+#### Importing Partial XML Files
+As of 26.2, we are able to import partial XML files. This is done to make updates more efficient since you only need to update the areas that have had changes. Those packeges cannot be imported from the Dysel App Technical Setup but must instead be imported through their corresponding setup pages. For example:
+- *Pages*: **Import Dysel App Pages** on the Dysel App Pages list page
+- *Actions*: **Import Action Codes** on the Dysel App Action Codes list page
+- *Synchronization Packages*: **Import Synch. Package** on the Dysel App Synchronization Packages list page
+
 ### Import Hotfixes:
 Import the base release and any previous hotfixes before the current one. For example, if importing hotfix 2, first import the base release (if not already present) and hotfix 1 before importing hotfix 2.
 
