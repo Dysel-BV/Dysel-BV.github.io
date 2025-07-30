@@ -43,7 +43,10 @@ You will receive or can request the XML file from Dysel. When requesting an XML 
 
 ### Determine the Version:
 1. Ensure you know the version of their original extension before upgrading. 
-2. Ensure you know which Synchronization Packages are activated so they can be activated correctly during step 5 
+2. Ensure you know which Synchronization Packages are activated so they can be activated correctly during step 5
+
+### Delete old functionality
+If there are any components that need to be removed, a Word file noting these things will be put in the folder. Please follow those steps first and remove what needs to be removed before importing the new XML file. 
 
 ### Import the XML File:
 1. If the version is 202505 or older, import the 202506 XML using the steps for a new customer. 
