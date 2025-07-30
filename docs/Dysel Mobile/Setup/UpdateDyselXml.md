@@ -46,8 +46,16 @@ You will receive or can request the XML file from Dysel. When requesting an XML 
 2. Ensure you know which Synchronization Packages are activated so they can be activated correctly during step 5
 
 ### Delete old functionality
-If there are any components that need to be removed, a Word file noting these things will be put in the folder. Please follow those steps first and remove what needs to be removed before importing the new XML file. 
+If there are any components that need to be removed, they will typically include outdated synchronization packages, unused action codes, or deprecated setup configurations. A Word file detailing these components and the steps for their removal will be placed in the "Dysel App Documentation" folder on the shared network drive or provided by the Dysel support team.
 
+#### What to do if the Word file is missing:
+1. Contact Dysel support to request the Word file.
+2. If the Word file cannot be obtained, review the current configuration for outdated or unused components based on the version being upgraded from and remove them manually.
+
+#### Verifying successful removal:
+1. Ensure that all components listed in the Word file (or identified manually) have been removed.
+2. Check the Dysel App Technical Setup and Synchronization Packages pages to confirm that no deprecated components remain.
+3. Document the removal process for future reference.
 ### Import the XML File:
 1. If the version is 202505 or older, import the 202506 XML using the steps for a new customer. 
 2. Import each subsequent version incrementally. For example, if upgrading from version 202506 to 202508, first import 202507 and then 202508. 
