@@ -15,4 +15,4 @@ jobs:
       uses: pozil/auto-assign-issue@v1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          teams: dysel-scribes
+          teams: ["dysel-scribes"]
