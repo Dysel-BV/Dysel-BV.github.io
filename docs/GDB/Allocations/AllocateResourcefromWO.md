@@ -1,6 +1,6 @@
 ---
 title: "Resource Allocation to Graphical Dispatch Board from Work Order"
-parent: "GDB Allocations"
+parent: "Allocations"
 ---
 
 # **User Instructions for Recording: Resource Allocation to Graphical Dispatch Board from Work Order**

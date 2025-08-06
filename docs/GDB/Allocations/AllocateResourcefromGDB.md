@@ -1,6 +1,6 @@
 ---
 title: "Resource Allocation from Graphical Dispatch Board"
-parent: "GDB Allocations"
+parent: "Allocations"
 ---
 
 # **User Instructions: Allocating Resources from Graphical Dispatch Board**

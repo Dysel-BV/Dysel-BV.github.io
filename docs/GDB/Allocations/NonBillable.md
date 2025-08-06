@@ -1,6 +1,6 @@
 ---
 title: "Non-Billable Resource Allocation from GDB"
-parent: "GDB Allocations"
+parent: "Allocations"
 ---
 
 **User Instructions for Recording: Non-Billable Resource Allocation from GDB**
