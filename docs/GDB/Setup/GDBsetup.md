@@ -13,7 +13,7 @@ will be seen globally by all users with access to the Graphical Dispatch Board.
 
 ## **Step 1: Navigate to the Graphical Dispatch Board Setup Page**
 
-    1. Search for **Graphical Dispatch Board Setup** in the search field and select the corresponding option to navigate to the setup page.
+   1. Navgate to **Graphical Dispatch Board Setup** in the search field and select the corresponding option to navigate to the setup page.
 
 * * *
 
