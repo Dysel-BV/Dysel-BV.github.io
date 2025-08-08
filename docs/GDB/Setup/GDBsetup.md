@@ -22,7 +22,7 @@ will be seen globally by all users with access to the Graphical Dispatch Board.
 ### **Set Default View**
 
   1. Locate the **Default View** field.
-  2. Enter your preferred value. For example:
+  2. Enter your preferred value.
 
 ### **Set Update Interval**
 
