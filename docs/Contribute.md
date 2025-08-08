@@ -23,5 +23,9 @@ In order to maintain consistency in our documentation, we have instituted a layr
 > If you do not elect to provide the fix and your issue is approved, it will go on our backlog.  
 > In that case, there will be no guarantee if or when it will be picked up by our documentation team
 
+### Contribution best practice
+Dysel uses the page scripting tool built into the Business Central web client to create and store scenarios. We then use [CentralQ Chat](https://katson.com/apps/centralq-chat/) by Dimitry Katson to create work instructions and export them as MarkDown (.md) files. These MD files form the basis of the documentation website. This is a quick, easy, and reusable method of easily creating work instructions.
+
+
 ### Review other submissions
 In addition to creating content, you can also help us by helping us by [reviewing outstanding pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews). We can all use an extra pair of eyes sometimes.
