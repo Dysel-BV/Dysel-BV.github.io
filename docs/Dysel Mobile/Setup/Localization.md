@@ -1,5 +1,5 @@
 ---
-title: "Localizaton"
+title: "Localization"
 parent: "Dysel Mobile Setup"
 ---
 
@@ -16,7 +16,7 @@ For field captions of Business Central fields, such as Ship-to Name, Serial No.,
 Another layer of translations are **data translations**. Data translations are not applied to field captions, but to actual field values like item descriptions, document line description fields, measurements and more. Microsoft has a limited data multilanguage functionality, and Dysel has expanded on that and has applied data translations to various fields. This data translation can be accessed on pages like the equipment object card, item card, resource card, and many others. These translations can be added manually by a user with sufficient Business Central permissions and can be exported and imported using tools like [configuration packages](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages).
 
 ### App Fields and Actions
-Finally, there are two multilanguage layers on the app setup in Business Central. There can be accessed through the Business Central search by looking for **Dysel App Multilanguage** and **Dysel App Multilanguage Text Constants**. Both can be manually created by users with sufficient permissions in Business Central and can be exported using the export and import action buttons on their respectived pages.
+Finally, there are two multilanguage layers on the app setup in Business Central. These can be accessed through the Business Central search by looking for **Dysel App Multilanguage** and **Dysel App Multilanguage Text Constants**. Both can be manually created by users with sufficient permissions in Business Central and can be exported using the export and import action buttons on their respective pages.
 
 #### Dysel App Multilanguage
 The Dysel App Multilanguage handles most of the native app UI, like buttons, headings, menu items, and page names. It also handles the translations for any field captions for fields that are unique to the app and thus not present in Business Central.
@@ -24,5 +24,5 @@ The Dysel App Multilanguage handles most of the native app UI, like buttons, hea
 #### Dysel App Multilanguage Text Constants
 Finally, the Dysel App Multilanguage Text Constants handles translations for dialog UI, such as confirmation questions, errors, messages, and progress dialogs.
 
-## Assignging a Language to a User
-In order to display the correct language, the app will need to know which language the user prefers. That can be done by entering the User Language field in the Dysel App User card. The Dysel App User, which can be found through the Business Central search by looking for "Dysel App Users".
+## Assigning a Language to a User
+In order to display the correct language, the app will need to know which language the user prefers. That can be done by entering the User Language field in the Dysel App User card. The Dysel App User can be found through the Business Central search by looking for "Dysel App Users".
