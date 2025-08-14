@@ -26,5 +26,15 @@ The Dysel App Multilanguage handles most of the native app UI, like buttons, hea
 #### Dysel App Multilanguage Text Constants
 The Dysel App Multilanguage Text Constants functionality handles translations for dialog UI, such as confirmation questions, errors, messages, progress dialogs and other process-related UI elements.
 
+### Brief Overview
+In short, we can summarize the language functionality in this table.
+
+| Layer | User-Changeable | Extra Languages |
+| --- | --- | --- |
+| BC Captions | No | Multiple |
+| Data Translations | Yes | One |
+| App Multilanguage | Yes | Multiple |
+| App Multilanguage Text Constants | Yes | Multiple |
+
 ## Assigning a Language to a User
 In order to display the correct language, the app will need to know which language the user prefers. That can be done by entering the User Language field in the Dysel App User card. The Dysel App User can be found through the Business Central search by looking for "Dysel App Users".
