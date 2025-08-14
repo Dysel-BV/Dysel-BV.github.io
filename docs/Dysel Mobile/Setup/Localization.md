@@ -18,6 +18,8 @@ Another layer of translations are **data translations**. Data translations are n
 ### App Fields and Actions
 Finally, there are two multilanguage layers on the app setup in Business Central. These can be accessed through the Business Central search by looking for **Dysel App Multilanguage** and **Dysel App Multilanguage Text Constants**. Both can be manually created by users with sufficient permissions in Business Central and can be exported using the export and import action buttons on their respective pages.
 
+> Currently, the Dysel App Multilanguage and Dysel App Multilanguage Text Constants support a maximum of one additional language. This may change in future versions.
+
 #### Dysel App Multilanguage
 The Dysel App Multilanguage handles most of the native app UI, like buttons, headings, menu items, and page names. It also handles the translations for any field captions for fields that are unique to the app and thus not present in Business Central.
 
