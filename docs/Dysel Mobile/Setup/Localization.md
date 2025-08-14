@@ -4,16 +4,7 @@ parent: "Dysel Mobile Setup"
 ---
 
 # Localization
-By default, the mobile app is available with US English (en-US) and Dutch (nl-NL) as the base language. However, it is possible to implement other languages for your users. This article will go into how the multilanguage functionality in the Dysel Mobile App is structured and how to update the various captions. 
-
-## Language Sources
-Before setting up languages, it is important to understand where the various translations come from. Translation in the app is necessarily a multi-layered approach. We will go through each layer and explain where the translations are stored and how they can be updated.
-
-### Business Central Captions
-For field captions of Business Central fields, such as Ship-to Name, Serial No., or Customer No., the app will use the captions that are present in Business Central. These captions are stored in [xliff](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files) files. Xliff is an industry standard in application translations and is widely used for multilanguage functionalities. The xliff files are embedded in the various Business Central apps (e.g. the Microsoft Base App, Dysel W1, Dysel Projects) and can therefore only be changed by accessing the source. This can only be done by Microsoft and ISVs/VARs.
-
-### Business Central Data Translations
-By default, the mobile app is available with US English as the base language. However, it is possible to implement a second language for your users. This article will go into how the multi-language functionality in the Dysel Mobile App is structured and how to update the various captions. 
+By default, the mobile app is available with US English (en-US) and Dutch (nl-NL) as the base languages. However, it is possible to implement other languages for your users. This article will go into how the multilanguage functionality in the Dysel Mobile App is structured and how to update the various captions. 
 
 ## Language Sources
 Before setting up languages, it is important to understand where the various translations come from. Translation in the app is necessarily a multi-layered approach. We will go through each layer and explain where the translations are stored and how they can be updated.
