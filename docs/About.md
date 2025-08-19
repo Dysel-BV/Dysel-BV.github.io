@@ -9,7 +9,7 @@ Dysel BC is an ERP solution designed created by Dysel BV in the Netherlands. It 
 ## About Dysel
 Dysel BV is a Microsoft&reg; Gold Partner and an ISV based in the Netherlands. We have over 30 years of experience in providing ERP solutions in the equipment market.
 
-> W: https://dysel.com/  
-> E: info@dysel.com  
+> W: [https://dysel.com/](https://dysel.com/)  
+> E: [info@dysel.com](mailto:info@dysel.com)  
 > T: +31 (0)74 205 11 99 (NL)  
 > T: +1-855-397-3587 (US)  
