@@ -1,0 +1,53 @@
+name: New documentation
+description: Request for new documentation page.
+title: "[New Documentation]: "
+labels: ["documentation request", "triage"]
+type: Feature
+projects: []
+assignees:
+  - PeterConijn
+  - aharrisdysel
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our documentation. Please ensure that you are clear in what you want to change and why you think it needs to be changed. Also be sure to indicate whether you will provide the change yourself if the issue is approved. 
+        If you will not be providing the change, the issue will be placed on our backlog and we can offer no guarantee on when it will be picked up.
+  - type: textarea
+    id: description
+    attributes:
+      label: Reason
+      description: Please describe the reason for the new documentation request.
+      placeholder: e.g. "I could find no documentation on how to set up the XYZ feature."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-documentation
+    attributes:
+      label: Proposed Documentation
+      description: Please describe a brief outline of the documentation you would like to see added.
+      placeholder: e.g. "I would start with an overview of the XYZ feature and its benefits. Then I would include a step-by-step guide on how to set it up."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Please provide any additional context or information that may be helpful in understanding your request.
+  - type: checkboxes
+    id: is-standard
+    attributes:
+      label: Creation Responsibility
+      description: |
+        Please verify that the feature you are requesting documentation for is a standard feature of Dysel BC and not a customization, and that it is not already documented. 
+        You can use the page inspector in Business Central (Ctrl + Alt + F1) to check which applications are active on a certain page.
+      options:
+        - label: I have ascertained that this is a standard feature of Dysel BC and that it is not already documented.
+          required: true
+  - type: checkboxes
+    id: creation-responsibility
+    attributes:
+      label: Creation Responsibility
+      description: Indicate whether you will provide the change. Please note that if you do not provide the change, it will be placed on our backlog and we cannot guarantee if and when it will be picked up.
+      options:
+        - label: I agree to provide the change
