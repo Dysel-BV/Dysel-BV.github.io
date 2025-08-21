@@ -1,0 +1,43 @@
+name: Correction
+description: Suggest a correction in existing documentation.
+title: "[Correction]: "
+labels: ["correction", "triage"] 
+projects: []
+assignees:
+  - PeterConijn
+  - aharrisdysel
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our documentation. Please ensure that you are clear in what you want to change and why you think it needs to be changed. Also be sure to indicate whether you will provide the change yourself if the issue is approved. 
+        If you will not be providing the change, the issue will be placed on our backlog and we can offer no guarantee on when it will be picked up.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Please provide a clear and concise description of what the mistake that you want to correct is and why it is inaccurate or incorrect.
+      placeholder: e.g. "The installation instructions are missing a step."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-correction
+    attributes:
+      label: Proposed Correction
+      description: Please describe the correction you would like to see made.
+      placeholder: e.g. "Add missing step X to installation instructions."
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Please provide any additional context or information that may be helpful in understanding the issue.
+      placeholder: e.g. "The setting does not work when I use it in Firefox."
+    validations:
+      required: false
+  - type: checkboxes
+    id: creation-responsibility
+    attributes:
+      label: Creation Responsibility
+      description: Indicate whether you will provide the change. Please note that if you do not provide the change, it will be placed on our backlog and we cannot guarantee if and when it will be picked up.
+      options:
+        - label: I agree to provide the change
