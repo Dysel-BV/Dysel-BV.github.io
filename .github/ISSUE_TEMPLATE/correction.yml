@@ -1,7 +1,8 @@
 name: Correction
 description: Suggest a correction in existing documentation.
 title: "[Correction]: "
-labels: ["correction", "triage"] 
+labels: ["correction", "triage"]
+type: Bug
 projects: []
 assignees:
   - PeterConijn
