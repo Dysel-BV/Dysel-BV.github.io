@@ -4,6 +4,7 @@
 - This repo hosts the Dysel Learn documentation site for the Dysel BC ERP solution, published as a GitHub Pages site using the `just-the-docs` remote Jekyll theme.
 - The rendered site root is the `docs/` folder; all user-facing content is Markdown (`.md`) with YAML front matter.
 - There is no custom application code or tests here; the primary task is adding and maintaining documentation pages.
+- The result of the site can be seen at https://learn.dysel.com/ and the source code is in this repo.
 
 ## Where to edit / add content
 - General site configuration lives in `docs/_config.yml` (theme, title, colors, search, logo, favicon). Avoid changing it unless explicitly asked.
