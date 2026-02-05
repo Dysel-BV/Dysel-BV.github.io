@@ -13,6 +13,8 @@
 
 ## Front matter and navigation conventions
 - Every page starts with YAML front matter using at least `title` (or `Title`) and often `parent` and/or `nav_order`.
+- **Important**: front matter keys are case-sensitive in Jekyll; use `title` or `Title` consistently as seen in existing files.
+- **Critical**: `parent` keys must be lowercase and values must match existing section titles exactly to nest correctly in the left-hand nav (for example `parent: "Work Orders"`). When creating new pages, reuse existing `parent` values or add new ones as needed.
 - Top-level sections (for example `Release Notes`, `GDB`) use `nav_order` in their front matter to control left-hand navigation order. Do not add `nav_order` to every child page unless you have a clear ordering requirement.
 - Child pages use `parent` to attach to their section (for example a Work Orders article uses `parent: "Work Orders"`; release notes files use `parent: "Release Notes"`). When creating new pages, follow existing `parent` values exactly so they appear under the right node.
 - Some pages (for example `docs/index.md`) use `nav_exclude: true` to hide them from the nav while still being landing pages; keep this pattern when editing those files.
