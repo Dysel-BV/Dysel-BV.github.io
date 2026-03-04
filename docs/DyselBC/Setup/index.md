@@ -1,5 +1,5 @@
 ---
-title: "DyselBC_Setup"
+title: "Setup"
 parent: "Dysel BC"
 ---
 
