@@ -179,7 +179,7 @@ These settings control financial posting behavior related to work orders.
 | **Allow Profit on Internal Work Order** | When enabled, internal work orders can include a profit margin on the lines. |
 | **Close Work Orders on Invoice** | Controls whether a work order is automatically set to **Closed** after it has been fully invoiced. Choose **Automatic** to close the work order or **No** to leave it open. Note that certain conditions (such as open service visits, outstanding claims, or unposted time sheet lines) may prevent automatic closing even when this option is enabled. |
 | **Close Work Order at Invoice Claim** | When enabled, a work order is closed when the claim linked to it is invoiced. |
-| **Allow Work Order Invoicing if Claim is Submitted** | When enabled, a work order where the service type is set to **Claim** can still be invoiced even if the claim line has been submitted but not yet finalised. |
+| **Allow Work Order Invoicing if Claim is Submitted** | When enabled, a work order where the service type is set to **Claim** can still be invoiced even if the claim line has been submitted but not yet finalized. |
 
 ### Reporting Codes
 
