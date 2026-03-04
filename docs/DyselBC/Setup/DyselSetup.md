@@ -1,6 +1,6 @@
 ---
 title: "Dysel Setup"
-parent: "Dysel BC"
+parent: "DyselBC_Setup"
 ---
 
 # Dysel Setup
