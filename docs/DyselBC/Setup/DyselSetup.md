@@ -257,7 +257,7 @@ These settings control financial posting, journal usage, and general ledger acco
 
 ## Configurator
 
-The configurator allows sales staff to build equipment configurations with optional and mandatory add-ons. The following fields let you customise the labels for four flexible data fields available on configuration templates.
+The configurator allows sales staff to build equipment configurations with optional and mandatory add-ons. The following fields let you customize the labels for four flexible data fields available on configuration templates.
 
 | Field | Description |
 |---|---|
