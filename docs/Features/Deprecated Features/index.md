@@ -32,3 +32,10 @@ The next sections give a brief description of the deprecated features, state wha
 |Moved, Removed, or Replaced|Why?|Which App(s)?|
 |-|-|-|
 |Moved|Transport functionality has been moved to the Transport app.|Dysel W1|
+
+### Dysel BI - OnPrem (removal)
+Dysel BI was an OnPrem app that exposed data for external integration such as Power BI reporting. It was not available on AppSource.
+
+|Moved, Removed, or Replaced|Why?|Which App(s)?|
+|-|-|-|
+|Moved|The functionality has been moved to API queries in the W1 app.|Dysel BI|
