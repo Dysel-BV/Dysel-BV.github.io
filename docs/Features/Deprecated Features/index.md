@@ -17,16 +17,19 @@ The next sections give a brief description of the deprecated features, state wha
 |Replaced|Something better has become available, and will be used instead.|
 
 > This information will change with future releases, and might not include each deprecated feature.
+___
 
 
-## Changes in 2026 release wave 2 (version 29.0.202611)
+# Changes in 2026 release wave 2 (version 29.0.202611)
 
 ### API v1.0 (removal)
 |Moved, Removed, or Replaced|Why?|Which App(s)?|
 |---|---|---|
 |Replaced|In order to maintain consistency with Business Central's [API v1.0 removal](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#api-v10-for-business-central-removal), we are removing references to our old v1.0 APIs in favor of our v2.0 versions.|All|
+___
 
-## Changes in 2026 release wave 1 (version 28.0.202605)
+
+# Changes in 2026 release wave 1 (version 28.0.202605)
 
 ### Dysel W1 Transport (removal)
 |Moved, Removed, or Replaced|Why?|Which App(s)?|
@@ -39,3 +42,4 @@ Dysel BI was an OnPrem app that exposed data for external integration such as Po
 |Moved, Removed, or Replaced|Why?|Which App(s)?|
 |---|---|---|
 |Moved|The functionality has been moved to API queries in the W1 app.|Dysel BI|
+___
