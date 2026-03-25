@@ -20,7 +20,7 @@ The next sections give a brief description of the deprecated features, state wha
 
 <br/>
 
-# Changes in 2026 release wave 2 (version 29.0.202611)
+## Changes in 2026 release wave 2 (version 29.0.202611)
 
 ### API v1.0 (removal)
 |Moved, Removed, or Replaced|Why?|Which App(s)?|
@@ -29,7 +29,7 @@ The next sections give a brief description of the deprecated features, state wha
 
 <br/>
 
-# Changes in 2026 release wave 1 (version 28.0.202605)
+## Changes in 2026 release wave 1 (version 28.0.202605)
 
 ### Dysel W1 Transport (removal)
 |Moved, Removed, or Replaced|Why?|Which App(s)?|
