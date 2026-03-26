@@ -1,6 +1,7 @@
 ---
 title: "Update the Dysel Mobile XML configuration"
 parent: "Dysel Mobile Setup"
+grand_parent: "Dysel Mobile"
 ---
 
 # Dysel Mobile XML Import and Update
@@ -42,11 +43,11 @@ You will receive or can request the XML file from Dysel. When requesting an XML 
 ## Updating an Existing Configuration
 
 ### Determine the Version:
-1. Ensure you know the version of their original extension before upgrading. 
-2. Ensure you know which Synchronization Packages are activated so they can be activated correctly during step 5
+1. Ensure you know the version of the currently installed extension before upgrading.
+2. Ensure you know which Synchronization Packages are currently activated so they can be re-activated correctly after the import.
 
-### Delete old functionality
-If there are any components that need to be removed, a Word file noting these things will be put in the folder. Please follow those steps first and remove what needs to be removed before importing the new XML file. 
+### Delete old functionality:
+If any components need to be removed before the update, a Word file describing those steps will be included in the release folder. Follow those instructions first and remove the indicated components before importing the new XML file. 
 
 ### Import the XML File:
 1. If the version is 202505 or older, import the 202506 XML using the steps for a new customer. 
@@ -56,7 +57,7 @@ If there are any components that need to be removed, a Word file noting these th
 If you are importing the full xml file, you can follow steps 1 through 5 in the process for importing the first time.
 
 #### Importing Partial XML Files
-As of 26.2, we are able to import partial XML files. This is done to make updates more efficient since you only need to update the areas that have had changes. Those packeges cannot be imported from the Dysel App Technical Setup but must instead be imported through their corresponding setup pages. For example:
+As of 26.2, we are able to import partial XML files. This is done to make updates more efficient since you only need to update the areas that have had changes. Those packages cannot be imported from the Dysel App Technical Setup but must instead be imported through the corresponding setup pages. For example:
 - *Pages*: **Import Dysel App Pages** on the Dysel App Pages list page
 - *Actions*: **Import Action Codes** on the Dysel App Action Codes list page
 - *Synchronization Packages*: **Import Synch. Package** on the Dysel App Synchronization Packages list page
@@ -75,8 +76,8 @@ Import the base release and any previous hotfixes before the current one. For ex
 8. Dysel App Mobile App Table Trigger 
 9. Dysel App Property Sets 
 
-### Activate the Synchronization Packages
-Activate the Synch Packages that the customer uses which you just imported during the Synchronization Packages import 
+### Activate the Synchronization Packages:
+Activate the same Synch Packages that were previously active, using the packages you just imported in the Synchronization Packages step.
 
  
 

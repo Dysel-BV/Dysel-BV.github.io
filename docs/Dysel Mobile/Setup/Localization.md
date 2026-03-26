@@ -1,6 +1,7 @@
 ---
 title: "Localization"
 parent: "Dysel Mobile Setup"
+grand_parent: "Dysel Mobile"
 ---
 
 # Localization

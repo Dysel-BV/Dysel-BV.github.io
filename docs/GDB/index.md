@@ -1,6 +1,6 @@
 ---
 title: "GDB"
-nav_order: 2
+nav_order: 3
 ---
 
 # Graphical Dispatch Board
