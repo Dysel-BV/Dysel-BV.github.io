@@ -12,7 +12,7 @@ The next sections give a brief description of the deprecated features, state wha
 
 | State | Examples |
 | --- | --- |
-|Moved|The capability has been moved from W1 to a dedicated app because it was too specific to remain in the generic processes. The capability was combined with other related functionality to eliminate redundancy. The capability has been moved from a specific app to W1 since it was too generic to warrant a dedicated app.|
+| Moved | - The capability has been moved from W1 to a dedicated app because it was too specific to remain in the generic processes.<br/>- The capability was combined with other related functionality to eliminate redundancy.<br.>- The capability has been moved from a specific app to W1 since it was too generic to warrant a dedicated app.|
 |Removed|The capability will be removed in a coming release.|
 |Replaced|Something better has become available, and will be used instead.|
 
