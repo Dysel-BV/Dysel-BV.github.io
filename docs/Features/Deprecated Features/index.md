@@ -33,6 +33,7 @@ The next sections give a brief description of the deprecated features, state wha
 ## Changes in 2026 release wave 1 (version 28.0.202605)
 
 ### Dysel W1 Transport (removal)
+
 | Moved, Removed, or Replaced | Why? | Which App(s)? |  
 | --- | --- | --- |
 |Moved|Transport functionality has been moved to the Transport app.|Dysel W1|
