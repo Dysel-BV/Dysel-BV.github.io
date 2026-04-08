@@ -7,5 +7,8 @@
 			"name": "Docs",
 			"path": "docs"
 		}
-	]	
+	],
+	"settings": {
+		"powershell.cwd": "Docs"
+	}
 }
