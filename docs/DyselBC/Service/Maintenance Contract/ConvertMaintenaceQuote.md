@@ -1,6 +1,6 @@
 ---
 title: "Convert Maintenance Quote to a Maintenance Contract"
-parent: "Maintenance Contract"
+parent: "Maintenance Contracts"
 ---
 
 

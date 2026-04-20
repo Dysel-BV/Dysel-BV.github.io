@@ -1,6 +1,6 @@
 ---
 title: "Create Maintenance Contract Quote Lost Deal"
-parent: "Maintenance Contract"
+parent: "Maintenance Contracts"
 ---
 
 

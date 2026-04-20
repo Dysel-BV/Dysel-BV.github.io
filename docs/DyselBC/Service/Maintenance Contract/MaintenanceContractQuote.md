@@ -1,6 +1,6 @@
 ---
 title: "Create Maintenance Contract Quote"
-parent: "Maintenance Contract"
+parent: "Maintenance Contracts"
 ---
 
 
