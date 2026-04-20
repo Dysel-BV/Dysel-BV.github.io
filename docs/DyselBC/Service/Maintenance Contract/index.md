@@ -1,5 +1,5 @@
 ---
-title: "Maintenace Contracts"
+title: "Maintenance Contracts"
 parent: "Service"
 ---
 
