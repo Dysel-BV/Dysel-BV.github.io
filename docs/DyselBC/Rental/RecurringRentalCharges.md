@@ -3,7 +3,6 @@ title: "Recurring Rental Charges"
 parent: "Rental Setup"
 ---
 
-
 ### **User Instructions for Recurring Rental Charges**
 
 This guide walks you through the steps to set up and use recurring rental
@@ -77,8 +76,7 @@ rental contracts.
 
 Recurring invoices use the current rental line quantity and unit price.
 
-**NOTE** After a recurring charge line has been invoiced, the quantity and unit
-price may no longer be editable.
+**NOTE** After a recurring charge line has been invoiced, the quantity and unit price may no longer be editable.
 
 * * *
 
@@ -89,8 +87,7 @@ price may no longer be editable.
   3. Review the created sales invoice before posting.
   4. Post the invoice when all lines are correct.
 
-**NOTE** A recurring charge does not create a rental invoice by itself. It is
-included together with the normal rental invoice process.
+**NOTE** A recurring charge does not create a rental invoice by itself. It is included together with the normal rental invoice process.
 
 * * *
 
@@ -120,11 +117,8 @@ The charge will then follow the standard charge invoicing behavior again.
   4. Enter a **Postpone Reason**, if required.
   5. Use **Clear Postponement** when the charge should become invoiceable again.
 
-**NOTE** **Postpone Reason** and **Clear Postponement** only apply when
-**Charge Invoicing** is set to **Postpone**.
+**NOTE** **Postpone Reason** and **Clear Postponement** only apply when **Charge Invoicing** is set to **Postpone**.
 
 * * *
 
-You have successfully set up and used a recurring rental charge. Repeat these
-steps for any other charges that should be included again during normal rental
-invoicing.
+You have successfully set up and used a recurring rental charge. Repeat these steps for any other charges that should be included again during normal rental invoicing.
