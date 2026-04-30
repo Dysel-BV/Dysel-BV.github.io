@@ -6,9 +6,7 @@ parent: "Rental Setup"
 
 ### **User Instructions for Setting Up Rental Charges**
 
-This guide walks you through the steps to set up a rental charge in Microsoft
-Dynamics 365 Business Central. Follow these simple instructions to complete
-the setup.
+This guide walks you through the steps to set up a rental charge in Microsoft Dynamics 365 Business Central. Follow these simple instructions to complete the setup.
 
 * * *
 
@@ -93,9 +91,7 @@ is set to **Line Charge**.
      2. **Postpone** - the charge is temporarily excluded from invoicing.
      3. **Recurring** - the charge can be included again during normal rental invoicing.
 
-**NOTE** The **Recurring** option is used for charges that should appear again
-on rental invoices. The recurring charge will only be included when the normal
-rental invoicing process creates invoiceable rental period lines.
+**NOTE** The **Recurring** option is used for charges that should appear again on rental invoices. The recurring charge will only be included when the normal rental invoicing process creates invoiceable rental period lines.
 
 * * *
 
@@ -127,8 +123,5 @@ with charges and not a required setup.
 
 * * *
 
-Your new rental charge is now set up and ready to use. If the charge was set
-to **Recurring**, it can be used on rental quote or rental contract lines where
-**Type = Sale** and **Subtype = Charge**. Repeat the steps for other charges as
-needed.
+Your new rental charge is now set up and ready to use. If the charge was set to **Recurring**, it can be used on rental quote or rental contract lines where **Type = Sale** and **Subtype = Charge**. Repeat the steps for other charges as needed.
 
