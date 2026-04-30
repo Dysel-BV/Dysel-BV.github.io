@@ -9,6 +9,12 @@ The **Check Price and Availability** feature sends the item lines on a purchase 
 
 ---
 
+>
+> ### <span style="color:CornflowerBlue">**Note: this functionality will become available in version 28.3.202607**</span>
+>
+
+---
+
 ## Before You Start
 
 Before using Check Price and Availability, make sure:
