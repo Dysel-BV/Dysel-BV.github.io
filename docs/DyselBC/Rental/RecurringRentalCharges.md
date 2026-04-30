@@ -1,6 +1,6 @@
 ---
 title: "Recurring Rental Charges"
-parent: "Rental Setup"
+parent: "Rental"
 ---
 
 ## **User Instructions for Recurring Rental Charges**
