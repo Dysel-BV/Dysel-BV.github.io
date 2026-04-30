@@ -10,6 +10,11 @@ This guide walks you through the full configuration needed to connect Business C
 
 ---
 
+>
+> ### <span style="color:CornflowerBlue">**Note: this functionality will become available in version 28.3.202607**</span>
+
+---
+
 ## Prerequisites
 
 Before you start, make sure you have the following from TVH:

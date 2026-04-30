@@ -9,6 +9,12 @@ Each TVH warehouse mapping in D2V requires a **Default Carrier Code** — the tr
 
 ---
 
+>
+> ### <span style="color:CornflowerBlue">**Note: this functionality will become available in version 28.3.202607**</span>
+>
+
+---
+
 ## Before You Start
 
 Before fetching carrier codes:
