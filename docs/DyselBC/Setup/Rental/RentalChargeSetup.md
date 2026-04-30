@@ -101,7 +101,7 @@ rental invoicing process creates invoiceable rental period lines.
 
 ### **Step 8:** Configure Postponement Settings
 
-#### **a. Postpone Invoicing**
+#### **a. Set Charge Invoicing to Postpone**
 
   1. In the **Charge Invoicing** field, select **Postpone** to enable postponing.
 
