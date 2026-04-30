@@ -21,7 +21,7 @@ Before using Check Price and Availability, make sure:
 
 ## Opening the Check
 
-### From the ribbon
+### From the ribbon[text](<../../../../../Additional Apps/D2VSuite/D2V TVH/App/docs/Setting Up Carrier Codes for TVH Warehouses.md>)
 
 On the Purchase Order card, go to the **Prepare** tab in the ribbon. You will see a **D2V** button.
 
