@@ -6,9 +6,7 @@ parent: "Rental Setup"
 
 ### **User Instructions for Setting Up Rental Charges**
 
-This guide walks you through the steps to set up a rental charge in Microsoft
-Dynamics 365 Business Central. Follow these simple instructions to complete
-the setup.
+This guide walks you through the steps to set up a rental charge in Microsoft Dynamics 365 Business Central. Follow these simple instructions to complete the setup.
 
 * * *
 
@@ -48,6 +46,9 @@ the setup.
   1. Click in the **Charge Type** box. 
   2. Choose the appropriate type related to your charge.
 
+**NOTE** Recurring charge behavior is only available when the **Charge Type**
+is set to **Line Charge**.
+
 * * *
 
 ### **Step 4:** Set General Product Posting Group
@@ -82,11 +83,23 @@ the setup.
 
 * * *
 
-### **Step 7:** Configure Postponement Settings
+### **Step 7:** Configure Charge Invoicing
 
-#### **a. Postpone Invoicing**
+  1. Click in the **Charge Invoicing** field.
+  2. Select how the charge should be handled during rental invoicing:
+     1. **Blank** - the charge follows the standard invoicing behavior.
+     2. **Postpone** - the charge is temporarily excluded from invoicing.
+     3. **Recurring** - the charge can be included again during normal rental invoicing.
 
-  1. Click the **Postpone Invoicing** checkbox to enable postponing. 
+**NOTE** The **Recurring** option is used for charges that should appear again on rental invoices. The recurring charge will only be included when the normal rental invoicing process creates invoiceable rental period lines.
+
+* * *
+
+### **Step 8:** Configure Postponement Settings
+
+#### **a. Set Charge Invoicing to Postpone**
+
+  1. In the **Charge Invoicing** field, select **Postpone** to enable postponing.
 
 #### **b. Set Postpone Reason**
 
@@ -98,16 +111,17 @@ the setup.
   1. Click in the **Clear Postponement** box. 
   2. Enter the number of days to delay clearing (e.g., "2").
 
-**NOTE** Postponement is an option to use with charges and not a required setup.
+**NOTE** **Postpone Reason** and **Clear Postponement** only apply when
+**Charge Invoicing** is set to **Postpone**. Postponement is an option to use
+with charges and not a required setup.
 
 * * *
 
-### **Step 8:** Save and Close
+### **Step 9:** Save and Close
 
   1. Once you’ve entered all the information, close the charge setup form by clicking **Done** or **Close**. 
 
 * * *
 
-Your new rental charge is now set up and ready to use. Repeat the steps for
-other charges as needed.
+Your new rental charge is now set up and ready to use. If the charge was set to **Recurring**, it can be used on rental quote or rental contract lines where **Type = Sale** and **Subtype = Charge**. Repeat the steps for other charges as needed.
 
