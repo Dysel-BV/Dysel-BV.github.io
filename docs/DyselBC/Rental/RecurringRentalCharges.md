@@ -5,9 +5,7 @@ parent: "Rental"
 
 ## **User Instructions for Recurring Rental Charges**
 
-This guide walks you through the steps to set up and use recurring rental
-charges in Microsoft Dynamics 365 Business Central. Recurring charges are used
-when a charge should be included again during normal rental invoicing.
+This guide walks you through the steps to set up and use recurring rental charges in Microsoft Dynamics 365 Business Central. Recurring charges are used when a charge should be included again during normal rental invoicing.
 
 * * *
 
@@ -63,8 +61,7 @@ rental contracts.
   6. Select the charge you set up earlier.
   7. Confirm that **Charge Invoicing** is set to **Recurring** on the line.
 
-**NOTE** The recurring option is only available for rental lines where
-**Type = Sale** and **Subtype = Charge**.
+**NOTE** The recurring option is only available for rental lines where **Type = Sale** and **Subtype = Charge**.
 
 * * *
 
