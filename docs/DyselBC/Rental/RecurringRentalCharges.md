@@ -1,9 +1,9 @@
 ---
 title: "Recurring Rental Charges"
-parent: "Rental"
+parent: "Dysel BC"
 ---
 
-## **User Instructions for Recurring Rental Charges**
+# **User Instructions for Recurring Rental Charges**
 
 This guide walks you through the steps to set up and use recurring rental charges in Microsoft Dynamics 365 Business Central. Recurring charges are used when a charge should be included again during normal rental invoicing.
 
