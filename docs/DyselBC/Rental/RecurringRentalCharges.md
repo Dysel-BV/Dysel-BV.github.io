@@ -1,6 +1,6 @@
 ---
 title: "Recurring Rental Charges"
-parent: "Dysel BC"
+parent: "Rental"
 ---
 
 # **User Instructions for Recurring Rental Charges**
