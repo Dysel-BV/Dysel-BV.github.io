@@ -1,6 +1,7 @@
 ---
 title: "TVH-P&A"
 parent: "TVH"
+nav_order: 30
 ---
 
 # Check Price and Availability
@@ -9,9 +10,10 @@ The **Check Price and Availability** feature sends the item lines on a purchase 
 
 ---
 
->
-> ### <span style="color:CornflowerBlue">**Note: this functionality will become available in version 28.3.202607**</span>
->
+> 
+> ### <span style="color:CornflowerBlue">Note: this functionality is still being developed and is expected to become available in 2026 release wave 1 (May - October)</span>
+> #### <span style="color:CornflowerBlue">This is an estimated release and is subject to change.</span>
+> 
 
 ---
 

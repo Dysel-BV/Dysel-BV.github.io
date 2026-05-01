@@ -1,6 +1,7 @@
 ---
 title: "TVH-SubmitOrder"
 parent: "TVH"
+nav_order: 40
 ---
 
 # Submitting an Order to TVH
@@ -9,9 +10,10 @@ The **Submit Order** action sends a released purchase order to TVH and confirms 
 
 ---
 
->
-> ### <span style="color:CornflowerBlue">**Note: this functionality will become available in version 28.3.202607**</span>
->
+> 
+> ### <span style="color:CornflowerBlue">Note: this functionality is still being developed and is expected to become available in 2026 release wave 1 (May - October)</span>
+> #### <span style="color:CornflowerBlue">This is an estimated release and is subject to change.</span>
+> 
 
 ---
 
