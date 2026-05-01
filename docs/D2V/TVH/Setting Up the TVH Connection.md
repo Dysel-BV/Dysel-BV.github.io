@@ -1,7 +1,7 @@
 ---
 title: "TVH-Setup"
 parent: "TVH"
-nav_order: 1
+nav_order: 10
 ---
 
 # Setting Up the TVH Connection in D2V
@@ -10,8 +10,10 @@ This guide walks you through the full configuration needed to connect Business C
 
 ---
 
->
-> ### <span style="color:CornflowerBlue">**Note: this functionality will become available in version 28.3.202607**</span>
+> 
+> ### <span style="color:CornflowerBlue">Note: this functionality is still being developed and is expected to become available in 2026 release wave 1 (May - October)</span>
+> #### <span style="color:CornflowerBlue">This is an estimated release and is subject to change.</span>
+> 
 
 ---
 
