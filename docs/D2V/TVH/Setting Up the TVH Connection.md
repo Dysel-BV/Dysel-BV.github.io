@@ -52,9 +52,11 @@ The Interface is the central configuration record that links a TVH connection to
 | **Authentication Method** | Select `Access Key` |
 | **Vendor No.** | The BC vendor card linked to TVH (used when processing orders) |
 | **Item Category Code** | Optional — the item category for parts sourced from TVH |
-| **Debug Enabled** | Leave off in production; enables detailed HTTP request logging when troubleshooting |
+| **Debug Enabled** | Optional; enables detailed HTTP request logging when troubleshooting |
 
 4. Close or save the line.
+
+> Note: when first implementing the interface, it is recommended to keep 'Debug Enabled' turned on until you have verified all integrations work as expected for a period of time.
 
 ---
 
