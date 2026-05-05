@@ -29,5 +29,5 @@ Users work from the existing sales invoice and create a corrective credit memo, 
 
 ## Availability and enablement
 
-- **Automatically enbled from:** May 2026 (version 28.0.202605).
+- **Automatically enabled from:** May 2026 (version 28.0.202605).
 - The feature can be disabled from the Dysel feature management page. This is not recommended.
