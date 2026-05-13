@@ -1,3 +1,10 @@
+---
+title: "Configuration"
+parent: "Setup"
+grand_parent: "Dysel Projects"
+nav_order: 1
+---
+
 # 2. Setup and Configuration
 
 Before projects can be created and used, an administrator must complete a one-time setup. The configuration is spread across five areas: Project Setup, Project Groups, Project Statuses, Default Project Tasks, and Source Codes.

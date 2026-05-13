@@ -1,3 +1,10 @@
+---
+title: "Consolidated Orders"
+parent: "Integrations"
+grand_parent: "Dysel Projects"
+nav_order: 3
+---
+
 # 13. Consolidated Orders
 
 > **Prerequisite**: Consolidated Order integration requires the **Consolidated Orders** module of Dysel W1. If your Dysel installation does not include this module, this section does not apply.

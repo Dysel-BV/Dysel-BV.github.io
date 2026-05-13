@@ -1,3 +1,9 @@
+---
+title: "Archiving and Closed Projects"
+parent: "Dysel Projects"
+nav_order: 8
+---
+
 # 15. Archiving and Closed Projects
 
 Dysel Projects maintains a full history of every project through a versioning mechanism. Each project header, task, and budget line carries an **Archive Version** integer field. The live (active) record always has `Archive Version = 0`. When a snapshot is taken, a copy is created with a higher archive version number, preserving the state of the project at that point in time.

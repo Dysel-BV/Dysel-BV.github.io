@@ -1,3 +1,9 @@
+---
+title: "Introduction"
+parent: "Dysel Projects"
+nav_order: 1
+---
+
 # 1. Introduction
 
 ## What is Dysel Projects?

@@ -1,3 +1,10 @@
+---
+title: "Purchasing"
+parent: "Operations"
+grand_parent: "Dysel Projects"
+nav_order: 2
+---
+
 # 6. Purchasing
 
 Purchase orders created for project-related materials and services are linked directly to a project and task. This allows procurement costs to flow through to the project's actual cost figures.

@@ -1,3 +1,10 @@
+---
+title: "Invoicing and Billing"
+parent: "Finance"
+grand_parent: "Dysel Projects"
+nav_order: 1
+---
+
 # 7. Invoicing and Billing
 
 Projects are not invoiced line by line as in a standard sales order. Instead, invoicing is controlled at the task level through **Invoicing Methods** and, for the *Schedule* method, through a per-task **Invoice Schedule** (billing milestones).

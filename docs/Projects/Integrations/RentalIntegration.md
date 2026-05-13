@@ -1,3 +1,10 @@
+---
+title: "Rental Integration"
+parent: "Integrations"
+grand_parent: "Dysel Projects"
+nav_order: 1
+---
+
 # 10. Rental Integration
 
 > **Prerequisite**: Rental integration requires the **Rental Management** module of Dysel W1. If your Dysel installation does not include this module, this section does not apply.

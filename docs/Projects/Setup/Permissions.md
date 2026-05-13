@@ -1,3 +1,10 @@
+---
+title: "Permissions"
+parent: "Setup"
+grand_parent: "Dysel Projects"
+nav_order: 2
+---
+
 # 16. Permissions
 
 Dysel Projects ships with two permission sets. Both are marked as `Assignable = true`, meaning they can be directly assigned to users or user groups in Business Central.

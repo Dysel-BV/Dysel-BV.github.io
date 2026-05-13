@@ -1,3 +1,10 @@
+---
+title: "Time Sheets"
+parent: "Operations"
+grand_parent: "Dysel Projects"
+nav_order: 3
+---
+
 # 9. Time Sheets
 
 > **Prerequisite**: Time sheet functionality requires the **Time Sheet** module of Dysel W1. If your Dysel installation does not include this module, this section does not apply.
