@@ -1,3 +1,9 @@
+---
+title: "Reporting"
+parent: "Dysel Projects"
+nav_order: 7
+---
+
 # 14. Reporting
 
 Dysel Projects includes two dedicated reports, as well as extending several existing Dysel W1 and standard Business Central reports with project-related columns. All reports are accessible from the project list or project card via the **Reports** action group.

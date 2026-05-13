@@ -1,3 +1,10 @@
+---
+title: "Work Orders"
+parent: "Operations"
+grand_parent: "Dysel Projects"
+nav_order: 1
+---
+
 # 5. Work Orders
 
 > **Prerequisite**: Work Orders in Dysel Projects depend on the **Work Order Management** module of Dysel W1. The Project Group must have a **Service Type** configured that corresponds to the project's service domain.

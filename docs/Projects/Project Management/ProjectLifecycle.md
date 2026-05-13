@@ -1,3 +1,10 @@
+---
+title: "Project Lifecycle"
+parent: "Project Management"
+grand_parent: "Dysel Projects"
+nav_order: 1
+---
+
 # 3. The Project Lifecycle
 
 This section describes how a project moves through its stages from creation to closure, and how the two status systems — **Posting Status** and **Project Status** — work together.

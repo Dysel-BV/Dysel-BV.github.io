@@ -1,3 +1,10 @@
+---
+title: "Financial Postings and WIP"
+parent: "Finance"
+grand_parent: "Dysel Projects"
+nav_order: 2
+---
+
 # 8. Financial Postings and WIP (Work in Progress)
 
 This section describes how the financial side of a project is structured, how costs and revenue flow through G/L accounts, and how to use pre-recognition (WIP accounting) to recognize revenue before invoicing.

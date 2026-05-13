@@ -1,3 +1,10 @@
+---
+title: "Project Deliveries"
+parent: "Operations"
+grand_parent: "Dysel Projects"
+nav_order: 4
+---
+
 # 12. Project Deliveries
 
 A **Project Delivery** is a shipping document that records the physical delivery of project output (typically an equipment object or finished goods) to the customer. It is separate from a sales invoice: the delivery records that the goods have been shipped, while invoicing records the financial claim on the customer.

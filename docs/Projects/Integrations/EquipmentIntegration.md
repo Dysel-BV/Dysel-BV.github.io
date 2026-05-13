@@ -1,3 +1,10 @@
+---
+title: "Equipment Integration"
+parent: "Integrations"
+grand_parent: "Dysel Projects"
+nav_order: 2
+---
+
 # 11. Equipment Integration
 
 > **Prerequisite**: Equipment integration requires the **Equipment Management** module of Dysel W1. If your Dysel installation does not include this module, this section does not apply.

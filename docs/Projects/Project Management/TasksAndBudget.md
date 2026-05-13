@@ -1,3 +1,10 @@
+---
+title: "Tasks and Budget"
+parent: "Project Management"
+grand_parent: "Dysel Projects"
+nav_order: 2
+---
+
 # 4. Tasks and Budget
 
 Tasks are the structural backbone of a project. They define the work stages, hold the budget, control how revenue is invoiced, and drive the creation of work orders. Budget lines provide the detailed cost breakdown within each task.
