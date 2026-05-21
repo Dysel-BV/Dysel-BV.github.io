@@ -26,14 +26,6 @@
 - Child pages use `parent` to attach to their section (for example a Work Orders article uses `parent: "Work Orders"`; release notes files use `parent: "Release Notes"`). When creating new pages, follow existing `parent` values exactly so they appear under the right node.
 - Some pages (for example `docs/index.md`) use `nav_exclude: true` to hide them from the nav while still being landing pages; keep this pattern when editing those files.
 
-## Release notes pattern
-- Version files in `docs/ReleaseNotes/` are named `{major}.{minor}.{build}.md` and have front matter like `Title: "27.3.202602"` and `parent: "Release Notes"`.
-- The H1 heading follows the pattern `# Dysel BC {version}`.
-- Content is a Markdown table with columns `Case No.`, `Module`, and `Comment`; each row describes a single change for that release.
-- Many releases end with a `## Notes` section for upgrade or compatibility warnings; keep using this section name when adding additional notes.
-- Release note files do not carry a `nav_order` value; the just-the-docs theme sorts them alphabetically by title, which works naturally for numeric version strings. Do not add `nav_order` to individual release note files.
-- Use `<span style="color:red">**Important**</span>:` before any critical upgrade warning in the `## Notes` section, consistent with existing release files.
-
 ## Style of user instruction pages
 - Most how-to pages (for example `AllocateResourcefromGDB.md`) are generated from Business Central page scripts and have:
   - An H1 in the format `# **User Instructions: {Task Description}**` — note the bold wrapping and colon separator (for example `# **User Instructions: Allocating Resources from Graphical Dispatch Board**`).
@@ -51,6 +43,45 @@
 - Structure: H1 with the feature name, then `## Overview`, `## How it helps`, `## Availability and enablement` (use these exact section names for consistency).
 - Availability should state the version and release date (for example `**Available from:** May 2026 (version 28.0.202605)`).
 - Use `<span style="color:red">**Caution**</span>:` to flag irreversible actions or significant prerequisites, consistent with existing feature pages.
+
+## Style of setup pages
+
+Setup pages document Business Central configuration pages. They describe what settings exist and what each one controls. There are two distinct types.
+
+### Card setup pages
+
+Card setup pages document a **single-record configuration page** (for example, `Dysel Setup`). The page is opened once and configured per company.
+
+- Front matter uses `title` (lowercase) and `parent` matching the parent section (for example `parent: "Setup"`).
+- H1 is the page name — no bold wrapping and no prefix (not "User Instructions:").
+- Opening paragraph of one to two sentences: (1) what the page is and what it controls across the system; (2) that it is configured once per company, though settings can be changed at any time.
+- Follow with a navigation sentence: `To open the [Page Name], search for **[Page Name]** in the Business Central search bar.`
+- A horizontal rule (`---`) separates the intro from the field documentation.
+- H2 headings correspond to FastTab names or logical groupings on the page (for example `## General`, `## Work Order`). Use H3 for sub-groups within a FastTab.
+- Within each section, document all configurable fields in a two-column table:
+  ```markdown
+  | Field | Description |
+  |---|---|
+  | **Field Name** | What the field controls and what the available options mean. |
+  ```
+- Descriptions must explain business impact in plain English. When a field has discrete options (such as an enum), describe the effect of each option inline (for example: `Choose **X** to do Y, or **Z** to do W.`).
+- Fields that are only visible under a specific condition should say so (for example: `Only visible when **[Other Field]** is enabled.`).
+- Use `> **Note:**` for important caveats. Use `> **Tip:**` for optional but useful guidance.
+- Do **not** include step-by-step click-by-click instructions. Card setup pages are field reference documentation, not how-to guides.
+
+### List setup pages
+
+List setup pages document a **multi-record setup list** (for example, Rental Charges, Posting Setup, SKU Setup). Each row in the list represents a configuration record.
+
+- Front matter uses `title` (lowercase) and `parent` matching the parent section.
+- H1 is the page name.
+- Opening paragraph: what the list contains and how those records are used elsewhere in the system (for example, which process reads them).
+- Follow with a navigation sentence: `To open [Page Name], search for **[Page Name]** in the Business Central search bar.`
+- A horizontal rule (`---`) separates the intro from the content.
+- A `## Fields` section (or named after the record type, for example `## Charge Fields`) containing a two-column field reference table, as described for card setup pages above.
+  - If the list page opens a card for each record, document the card fields under the same section using sub-tables or H3s per card FastTab.
+- After the field table, add a `## Setting Up [Record Name]` section with a numbered list of concise steps covering the creation of a typical record. Steps should explain **intent** (for example: "Assign a General Product Posting Group to control how this charge is posted to the general ledger."), not narrate mouse clicks. This section is optional when record creation is entirely self-explanatory.
+- Use `> **Note:**` and `> **Tip:**` as with card setup pages.
 
 ## Contribution and workflow expectations
 - Contribution flow is issue-first, PR-second as described in `README.md` and `docs/Contribute.md`: issues should describe the requested documentation and, when possible, link to the PR implementing it.
@@ -95,10 +126,18 @@ parent: "Dysel Features"
 ---
 ```
 
-**Release note file** (under `docs/ReleaseNotes/`):
+**Release note version hub** (`index.md` under `docs/ReleaseNotes/Version {major}/`):
+```yaml
+---
+title: "Version 27"
+parent: "Release Notes"
+---
+```
+
+**Release note version file** (for example `docs/ReleaseNotes/Version 27/27.3.202602.md`):
 ```yaml
 ---
 Title: "27.3.202602"
-parent: "Release Notes"
+parent: "Version 27"
 ---
 ```
