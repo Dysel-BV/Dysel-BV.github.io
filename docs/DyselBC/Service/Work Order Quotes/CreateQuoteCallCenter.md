@@ -13,7 +13,7 @@ a smooth process.
 
 ### **Step 1:** Navigate to the **Call Center** list
 
-  1. Open the system and go to the **Call Center** section. You can find it using the search function or selecting it from the menu.
+  Open the system and go to the **Call Center** section. You can find it using the search function or selecting it from the menu.
 
 * * *
 
