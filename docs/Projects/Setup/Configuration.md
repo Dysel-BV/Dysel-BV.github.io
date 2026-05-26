@@ -154,9 +154,11 @@ The standard Dysel W1 User Setup is extended with project-relevant per-user or p
 ---
 
 ## 2.7 Document Statuses
+> **Document status** is available in Dysel Projects as of version **28.2.202606**
 
 **Page**: *Document Status* (filtered to Projects)
 **Navigation**: Search for "Document Status"
+
 
 Document Statuses are freely configurable codes that can be assigned to a project for reporting and classification purposes. They are **distinct from Project Statuses**: a Document Status does not control which actions are allowed on a project and has no effect on processing logic. It is a label that your team can use to track internal states that fall outside the formal Project Status workflow — for example, *Pending Customer Approval*, *On Hold – Parts*, or *Ready for Sign-off*.
 
