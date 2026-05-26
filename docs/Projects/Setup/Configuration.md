@@ -150,3 +150,24 @@ No special action is required for source codes unless your organization wants to
 ## 2.6 User Setup
 
 The standard Dysel W1 User Setup is extended with project-relevant per-user or per-branch settings. These control branch-level access and defaults for individual users. Consult your system administrator if you need to restrict which branches a user can post to or create projects for.
+
+---
+
+## 2.7 Document Statuses
+
+**Page**: *Document Status* (filtered to Projects)
+**Navigation**: Search for "Document Status"
+
+Document Statuses are freely configurable codes that can be assigned to a project for reporting and classification purposes. They are **distinct from Project Statuses**: a Document Status does not control which actions are allowed on a project and has no effect on processing logic. It is a label that your team can use to track internal states that fall outside the formal Project Status workflow — for example, *Pending Customer Approval*, *On Hold – Parts*, or *Ready for Sign-off*.
+
+### Fields
+
+| Field | Description |
+|---|---|
+| **Code** | A unique code for the document status (up to 20 characters). |
+| **Description** | A readable label displayed on the project card. |
+| **Status Color** | An optional color indicator shown alongside the status code in lists. |
+| **Visible On Everyware** | Controls whether this status is surfaced in the Dysel mobile/Everyware interface. |
+| **Project Document Status** | An optional classification that groups document statuses for project-specific reporting. |
+
+> **Design guidance**: Document Statuses are most useful when your team needs informal tracking states that exist *within* a formal Project Status stage. Keep the list short and meaningful; avoid duplicating states that are already captured by Project Statuses.

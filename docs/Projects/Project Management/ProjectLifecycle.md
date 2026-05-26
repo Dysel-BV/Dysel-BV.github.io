@@ -7,21 +7,22 @@ nav_order: 1
 
 # 3. The Project Lifecycle
 
-This section describes how a project moves through its stages from creation to closure, and how the two status systems — **Posting Status** and **Project Status** — work together.
+This section describes how a project moves through its stages from creation to closure, and how the status systems — **Posting Status**, **Project Status**, and **Document Status** — work together.
 
 ---
 
-## 3.1 Understanding the two status fields
+## 3.1 Understanding the status fields
 
-A project carries two status values simultaneously:
+A project carries three status values simultaneously:
 
 | Status | Controlled by | Purpose |
 |---|---|---|
 | **Posting Status** | System (fixed enum) | Records the formal, system-level stage of the project. Determines what kinds of financial transactions are allowed. |
 | **Project Status** | Administrator (configurable) | Records where the project is in your *internal process*. Controls day-to-day permitted actions (create WO, invoice, etc.). |
 | **Status** | System | A simple technical lock: **Open**, **Released**, or **Closed**. Set by the Release and Close actions. |
+| **Document Status** | User (freely assignable) | A label for informal tracking and reporting. Does not control processing logic or permitted actions. |
 
-Think of it this way: the Posting Status is the legal/accounting lifecycle, the Project Status is your operational workflow, and Status is the document lock.
+Think of it this way: the Posting Status is the legal/accounting lifecycle, the Project Status is your operational workflow, Status is the document lock, and Document Status is a free-form label your team can use for internal tracking.
 
 ---
 
