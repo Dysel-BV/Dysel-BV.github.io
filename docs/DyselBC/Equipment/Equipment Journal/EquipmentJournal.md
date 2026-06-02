@@ -38,7 +38,7 @@ The following fields are visible by default on the **Equipment Journal** page.
 | **Document Date** | Yes | Document date of the journal line. |
 | **Posting Date** | Yes | Determines on which date the resulting entries are inserted into the ledgers. |
 | **Document No.** | Yes | Document number of the journal line. Can be assigned automatically from the batch number series. |
-| **Equipment Journal Type** | Yes | Type of posting. Drives the complete posting logic. See [Posting Logic per Journal Type](#posting-logic-per-journal-type). |
+| **Equipment Journal Type** | Yes | Type of posting. Drives the complete posting logic. See [Posting Logic per Journal Type](EquipmentJournalPostingLogic.md#posting-logic-per-journal-type). |
 | **Equipment Category** | No | Category of the equipment object. Automatically populated from the object; can be used as a search filter. |
 | **Equipment Group** | No | Group of the equipment object. Automatically populated from the object. |
 | **Equipment Model** | No | Model of the equipment object. Automatically populated from the object. |
