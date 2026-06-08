@@ -9,7 +9,7 @@ Instructions allow you to attach a free-text note to a record — such as a cust
 
 For example, you can write on a customer that they require a phone call before delivery. That note then shows up on every sales order, rental contract, and work order for that customer.
 
-Each instruction has a heading that shows where the instruction originated, so you can easily see if it is related to the document, the customer, or that specific shipping address.
+Each instruction has a heading that shows where the instruction originated, so you can easily see if it is related to the document, the customer, or the related ship-to address.
 
 ---
 
@@ -17,20 +17,14 @@ Each instruction has a heading that shows where the instruction originated, so y
 
 Instructions are shown on the following documents. Each document collects instructions from all related records and displays them together.
 
-| Document | Instructions are shown from |
+| Document | Instruction sources |
 |---|---|
 | **Sales Order** | The order itself, the customer, the ship-to address, and the original quote (if the order was converted from one) |
 | **Work Order** | The work order itself, the customer, the ship-to address, the maintenance contract, and the equipment object (including any linked rental contract) |
-| **Service Visit** | The service visit itself, plus everything listed under Work Order above |
+| **Service Visit** | The service visit itself, plus everything listed under its parent Work Order |
 | **Rental Contract** | The contract itself, the customer, and the ship-to address |
 | **Equipment Object** | The equipment object itself and its customer |
 | **Maintenance Contract** | The contract itself, the customer, and the ship-to address |
-
----
-
-## The Instructions indicator
-
-On any document that supports instructions, a small indicator is shown when at least one instruction exists for that document or any of its related records. You do not need to open the Instructions panel to notice that something is there.
 
 ---
 
@@ -49,5 +43,5 @@ The next time someone opens a document related to this record, the instruction w
 
 1. Open the record the instruction belongs to.
 2. Select **Instructions** from the action bar.
-3. Clear all the text from the field.
-4. Close the panel. The instruction is removed automatically.
+3. Clear all the text from the text field. The instruction is deleted when the text field is left empty.
+4. Close the panel.
