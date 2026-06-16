@@ -25,7 +25,6 @@ Instructions are shown on the following documents. Each document collects instru
 | **Rental Contract** | The contract itself, the customer, and the ship-to address |
 | **Equipment Object** | The equipment object itself and its customer |
 | **Maintenance Contract** | The contract itself, the customer, and the ship-to address |
-
 ---
 
 ## Adding or editing an instruction
