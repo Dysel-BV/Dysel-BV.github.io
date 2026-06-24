@@ -6,31 +6,32 @@ nav_order: 3
 
 # Put-away List
 
-After a Vendor Receipt is posted, the goods sit at the **receipt location**. The
-**Put-away List** is a worklist that tells staff where each received quantity should
-go and lets you move it there.
+After a Vendor Receipt is posted, the goods sit at the receipt location. The
+Put-away List is a worklist that tells staff where each received quantity should go
+and lets them move it there.
 
-> **Post the Vendor Receipt first.** The put-away moves stock *out of* the receipt
-> location, so the goods have to be received before you can put them away. See the
-> warning in [Step 3](#step-3-post-the-put-away-transfer).
+> **Post the Vendor Receipt first.** The put-away moves stock out of the receipt
+> location, so the goods must already be received before you can put them away. See
+> the warning in [Step 3](#step-3-post-the-put-away-transfer).
 
 * * *
 
-## **Step 1:** Open the Put-away List
+## Step 1: Open the Put-away List
 
 1. Open the Vendor Receipt.
 2. Choose the **Put-Away List** action (or press **F11**).
 
-The system generates the put-away lines for the receipt. Each time you open or refresh
-the list, the lines are **rebuilt** from the latest received quantities and the demand
-linked to them — so the list is always current, and any unposted lines are recreated.
+The system generates the put-away lines for the receipt. Each time you open or
+refresh the list, the lines are rebuilt from the latest received quantities and the
+demand linked to them, so the list is always current and any unposted lines are
+recreated.
 
 * * *
 
-## **Step 2:** Understand the put-away lines
+## Step 2: Understand the put-away lines
 
-Each line shows where a received quantity should move **from** and **to**, and which
-demand it is fulfilling:
+Each line shows where a received quantity should move from and to, and which demand
+it is fulfilling:
 
 | Destination type | What it means |
 |---|---|
@@ -40,23 +41,23 @@ demand it is fulfilling:
 | **Requisition** | The goods are earmarked against planned demand from the requisition worksheet. |
 | **Purchase** | The goods are linked to purchase demand. |
 
-Anything not earmarked to a specific demand becomes a **remainder line** that simply
-puts the goods on the shelf — to the item's fixed bin at the receipt location.
+Anything not earmarked to a specific demand becomes a remainder line that simply puts
+the goods on the shelf, to the item's fixed bin at the receipt location.
 
 > **Why a line might point at a transfer:** when replenishment is planned through the
 > requisition worksheet for an item supplied by transfer, carrying out the plan
 > creates a transfer order. The received goods are then earmarked to feed that
-> transfer, and show on the put-away list as **Transfer To**.
+> transfer and appear on the put-away list as **Transfer To**.
 
 * * *
 
-## **Step 3:** Post the put-away transfer
+## Step 3: Post the put-away transfer
 
-1. On the **Put-away List**, select the lines you want to move.
+1. On the Put-away List, select the lines you want to move.
 2. Choose **Post Transfer of Selected Lines**.
 
-For each selected line, the system moves the quantity from the **receipt location** to
-the line's destination location and marks the line as **Posted**.
+For each selected line, the system moves the quantity from the receipt location to the
+line's destination location and marks the line as **Posted**.
 
 > ### ⚠️ Post the receipt before the put-away
 >
@@ -72,16 +73,16 @@ the line's destination location and marks the line as **Posted**.
 > **Always post the Vendor Receipt first, then post the put-away transfer.**
 
 > **Note:** Lines whose destination is already the receipt location (from and to are
-> the same) are **not** posted — there is nothing to move. They stay on the list and
+> the same) are not posted because there is nothing to move. They stay on the list and
 > reappear the next time it is regenerated.
 
 * * *
 
-## **Step 4:** Confirm the moves
+## Step 4: Confirm the moves
 
-Review the put-away list after posting. Posted lines are marked **Posted**; any line
-that was skipped (same from/to location, or not selected) remains for you to handle or
-regenerate.
+Review the put-away list after posting. Posted lines are marked **Posted**. Any line
+that was skipped because the from and to locations are the same, or because it was not
+selected, remains for you to handle or regenerate.
 
 * * *
 

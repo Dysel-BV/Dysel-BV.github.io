@@ -5,30 +5,29 @@ parent: "Parts"
 
 # Vendor Receipts
 
-A **Vendor Receipt** is a goods-inwards worksheet. When a delivery arrives from a
-supplier, warehouse staff use it to record what physically came in (per the packing
-slip), match it against one or more open **Purchase Orders**, and then post the
-receipt to bring the goods into stock.
+A Vendor Receipt is a goods-inwards worksheet used when a delivery arrives from a
+supplier. Warehouse staff use it to record what physically arrived, match it against
+one or more open Purchase Orders, and post the receipt so the goods enter stock.
 
-After the goods have been received, an optional **Put-away List** tells staff where
-each received quantity should go — to a bin, a work order, a sales order, or onward
-via a transfer — and posting that list moves the stock to its destination.
+After the goods are received, an optional Put-away List helps staff move them from
+the receipt location to their final destination, such as a bin, work order, sales
+order, or transfer.
 
 ---
 
 ## Two posting steps
 
-A Vendor Receipt involves **two separate posting actions**, and the order matters:
+A Vendor Receipt uses two separate posting actions, and the order matters:
 
-1. **Post the Vendor Receipt** — receives the goods into the **receipt location**.
-2. **Post the Put-away Transfer** — relocates the received goods to their final
-   destination.
+1. **Post the Vendor Receipt** to receive the goods into the receipt location.
+2. **Post the Put-away Transfer** to move the received goods to their final
+destination.
 
-> **Always post the Vendor Receipt before posting the Put-away Transfer.** The
-> put-away moves stock *out of* the receipt location, so that stock has to be there
-> first. Posting the put-away before the receipt can fail, or — depending on your
-> item and location settings — create negative inventory that has to be cleaned up
-> later. See [Put-away List](PutAwayList.md) for details.
+> **Always post the Vendor Receipt before the Put-away Transfer.** The put-away moves
+> stock out of the receipt location, so the goods must already be there. Posting the
+> put-away first can cause errors or, depending on your item and location settings,
+> negative inventory that must be corrected later. See [Put-away List](PutAwayList.md)
+> for details.
 
 ---
 
@@ -40,12 +39,12 @@ A Vendor Receipt moves through four statuses:
 |---|---|
 | **Open** | The document is editable. You can add and change lines. |
 | **Released** | Pre-posting checks have passed. The header and lines are now locked for editing. |
-| **Posted** | The goods have been received into stock. The receipt now appears in the posted (history) view. |
+| **Posted** | The goods have been received into stock. The receipt appears in the posted history view. |
 | **Closed** | A manual final state once the receipt is fully handled. |
 
-You can post directly from **Open** — the system will release the document first
-(after a confirmation). If posting fails partway through, the document is reopened
-so you can correct it.
+You can post directly from **Open**. The system releases the document first after a
+confirmation. If posting fails partway through, the document is reopened so you can
+correct it.
 
 ---
 
@@ -72,5 +71,5 @@ flowchart TD
   pre-posting checks, receive the goods, and handle shortages or damage as claims.
 - **[Put-away List](PutAwayList.md)** — generate the put-away worklist and move the
   received goods to their destination.
-- **[Field Reference](FieldReference.md)** — what each field on the header and lines
-  means.
+- **[Field Reference](FieldReference.md)** — see what each field on the header and
+  lines means.
