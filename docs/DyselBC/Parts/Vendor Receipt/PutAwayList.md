@@ -26,6 +26,8 @@ refresh the list, the lines are rebuilt from the latest received quantities and 
 demand linked to them, so the list is always current and any unposted lines are
 recreated.
 
+**Note:** Put-away lines are generated based on **reservation entries**, so if you need to trace where a value came from, the item's reservation entries can help you make sense of why that value was set.
+
 * * *
 
 ## Step 2: Understand the put-away lines
