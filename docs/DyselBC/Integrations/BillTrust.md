@@ -42,7 +42,7 @@ The **BillTrust Connector** integrates BillTrust cash application and lockbox se
 
 ## Setup
 
-### BillTrust Setup Card
+### Billtrust Setup Card
 
 Open the **Billtrust Setup Card** from the Business Central search bar. This is the single configuration record for your connector.
 
