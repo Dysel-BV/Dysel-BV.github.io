@@ -41,7 +41,7 @@ flowchart LR
 2. **DynaGroup Values** — the picklist of allowed entries for each slot of a DynaGroup
    (e.g. slot "Option 1" of `TIRES` allows `RADIAL`, `BIAS`). Maintained on the
    **DynaGroup Value Worksheet** — see the companion guide,
-   [DynaGroupValueWorksheet-UserGuide.md](DynaGroupValueWorksheet-UserGuide.md).
+   [Dyna Group Value Worksheet](DynaGroupValueWorksheet.md).
 3. **Dynafields** — the actual fields you see and fill in on a record's card (Item,
    Customer, Equipment Model, ...). They're always there, but they only make sense once a
    DynaGroup is assigned — the DynaGroup tells them what to be called and what values to
