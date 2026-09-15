@@ -118,13 +118,13 @@ labeled "Equipment Model Option" entries.
 2. **Name the slots you need.** On the **Dyna Group Card**, fill in only the slots that
    are relevant (e.g. Option 1 = `Color`, Boolean Option 1 = `Is Refrigerated`). Leave
    everything else blank.
-3. **Define the allowed values (Code options and Selection Decimals only).** Use the
+3. **Define the allowed values (Code options, Selection Decimals, and Equipment Model options).** Use the
    **Dyna Group Value Worksheet** to add the picklist entries for each named slot (e.g.
    `Color` → `RED`, `BLUE`, `GREEN`).
 4. **Assign the Dyna Group to a record.** On the Item, Customer, Equipment Model, etc.,
    set the **Dyna Group** field to the Dyna Group you just built.
 5. **Fill in the Dynafields.** The Dynafields on that record now show your custom labels;
-   Code option and Selection Decimal fields restrict input to the values from step 3.
+   Code option, Selection Decimal, and Equipment Model option fields restrict input to the values from step 3.
 
 ## Frequently Asked Questions
 
