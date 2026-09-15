@@ -35,8 +35,8 @@ flowchart LR
     D["DynaGroup Values<br/>(the allowed picklist)"] -->|feeds| C
 ```
 
-1. **DynaGroup** — the template. It has a `Code` (e.g. `TIRES`), a `Description`, and up
-   to ~60 named "slots" grouped by type (see below). Setup pages: **DynaGroup List** /
+1. **DynaGroup** — the template. It has a `Code` (e.g. `TIRES`), a `Description`, and
+   named "slots" grouped by type (see below). Setup pages: **DynaGroup List** /
    **DynaGroup Card**.
 2. **DynaGroup Values** — the picklist of allowed entries for each slot of a DynaGroup
    (e.g. slot "Option 1" of `TIRES` allows `RADIAL`, `BIAS`). Maintained on the
