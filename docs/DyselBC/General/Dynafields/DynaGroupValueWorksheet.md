@@ -9,8 +9,8 @@ nav_order: 20
 
 ## What is this page for?
 
-Think of a **Dyna Group** as a template with up to 20 empty "option" slots (Option 1,
-Option 2, ... Option 20). By itself, a Dyna Group doesn't know what choices should be
+Think of a **Dyna Group** as a template with "option" slots (Option 1,
+Option 2, etc.). By itself, a Dyna Group doesn't know what choices should be
 available in each slot — it just reserves the space.
 
 The **Dyna Group Value Worksheet** is where you fill in the actual list of choices
