@@ -23,6 +23,6 @@ By posting usage via shipments, you improve transparency and control over invent
 
 ## Availability and enablement
 
-- **Available from:** November 2026 (version 29.0.202611).
+- **Available from:** May 2027 (version 30.0.202705).
 - The feature can be enabled from the Dysel feature management page.
 - <span style="color:red">**Caution**</span>: Once enabled, this feature **_cannot_** be disabled due to the data migration that is taking place.
