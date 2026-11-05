@@ -82,7 +82,7 @@ If TVH returns an error or the connection cannot be reached, a message is shown 
 
 ## Where the Carrier Code Is Used
 
-The **Default Carrier Code** stored on a warehouse row is included in every Submit Order request that D2V sends to TVH for purchase lines mapped to that warehouse. TVH uses it to assign a transport carrier when processing the order.
+D2V sends the **TVH Carrier Code** from the purchase order when it is filled in. Otherwise, it uses the **Default Carrier Code** from the warehouse mapping for the purchase lines. TVH uses the selected code to assign a transport carrier when processing the order.
 
 If the carrier code is missing or invalid when a Submit Order is run, the order for that warehouse will be rejected by TVH.
 
