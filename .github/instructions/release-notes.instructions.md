@@ -29,10 +29,12 @@ parent: "Release Notes"
 ---
 Title: "27.3.202602"
 parent: "Version 27"
+grand_parent: "Release Notes"
 ---
 ```
 - `Title` uses capital T.
 - `parent` must match the version hub's `title` value exactly (for example `"Version 27"`), not `"Release Notes"`.
+- `grand_parent` must be `"Release Notes"` so the release file appears beneath its version hub in navigation.
 - No `nav_order` — the just-the-docs theme sorts these alphabetically by title, which works naturally for numeric version strings.
 
 ## Version hub content
@@ -68,7 +70,7 @@ Immediately after the H1, a three-column change table:
 
 Use consistent module names. Existing values (use these, do not invent new ones unless a new module is genuinely introduced):
 
-`General`, `Equipment`, `Service`, `Rental`, `Mobile Field Service`, `Integration`, `Parts`, `Finance`, `Purchase`, `Localization`, `Transport`, `Credit Management`, `Time Sheet Scanning`
+`General`, `Equipment`, `Service`, `Rental`, `Mobile Field Service`, `Integration`, `Parts`, `Finance`, `Purchase`, `Localization`, `Transport`, `Credit Management`, `Time Sheet Scanning`, `Projects`, `Support Portal`
 
 ## Notes section
 
