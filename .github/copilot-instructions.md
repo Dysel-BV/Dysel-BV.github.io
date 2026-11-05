@@ -23,7 +23,7 @@
 - **Critical**: `parent` keys must be lowercase and `parent` values must match the parent page's `title`/`Title` value exactly, in a case-sensitive way, to nest correctly in the left-hand nav (for example, if the parent has `Title: "Work Orders"`, child pages must use `parent: "Work Orders"`). When creating new pages, reuse existing `parent` values or add new ones as needed.
 - **Three-level nesting**: When a page sits under a subfolder that is itself under a top-level section (for example `Allocations` inside `GDB`), the page must declare both `parent` and `grand_parent` — for example `parent: "Allocations"` and `grand_parent: "GDB"`. Without `grand_parent` the page will not appear correctly in the left-hand nav.
 - Top-level sections (for example `Release Notes`, `GDB`) use `nav_order` in their front matter to control left-hand navigation order. Do not add `nav_order` to every child page unless you have a clear ordering requirement.
-- Child pages use `parent` to attach to their section (for example a Work Orders article uses `parent: "Work Orders"`; release notes files use `parent: "Release Notes"`). When creating new pages, follow existing `parent` values exactly so they appear under the right node.
+- Child pages use `parent` to attach to their section (for example a Work Orders article uses `parent: "Work Orders"`). Release note files use `parent: "Version {major}"` and `grand_parent: "Release Notes"`. When creating new pages, follow existing `parent` values exactly so they appear under the right node.
 - Some pages (for example `docs/index.md`) use `nav_exclude: true` to hide them from the nav while still being landing pages; keep this pattern when editing those files.
 
 ## Style of user instruction pages
@@ -139,5 +139,6 @@ parent: "Release Notes"
 ---
 Title: "27.3.202602"
 parent: "Version 27"
+grand_parent: "Release Notes"
 ---
 ```
