@@ -11,4 +11,4 @@ The table below lists the Dysel-specific features that can be managed from the f
 | --- | --- | --- | --- |
 | Rental Credit | Credit rental invoices using the corrective credit memo from the sales invoice. | May 2026 (28.0.202605) | [Learn more](/Features/Dysel%20Features/RentalCredit.html) |
 | Service Action Dispatch Board Work Order Creation | Enables using a wizard with enhanced options for creating work orders from the service action dispatch board | May 2026 (28.0.202605) | [Learn more](/Features/Dysel%20Features/ServiceActionDispatchBoardWorkOrderCreation.html) |
-| Work Order Shipment Posting | Post work order usage via a shipment process, which allows better handling for items with non-standard costing methods on work orders. | November 2026 (29.0.202611) | [Learn more](/Features/Dysel%20Features/WorkOrderShipmentPosting.html) |
+| Work Order Shipment Posting | Post work order usage via a shipment process, which allows better handling for items with non-standard costing methods on work orders. | May 2027 (30.0.202705) | [Learn more](/Features/Dysel%20Features/WorkOrderShipmentPosting.html) |
