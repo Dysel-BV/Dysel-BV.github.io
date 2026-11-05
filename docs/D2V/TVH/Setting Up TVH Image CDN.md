@@ -2,7 +2,6 @@
 title: "TVH-ImageCDN"
 parent: "TVH"
 nav_order: 60
-published: false
 ---
 
 # Setting Up TVH Image CDN in D2V
@@ -36,6 +35,12 @@ TVH provides the image key file as a **fixed-width plain-text file**. Each line 
 Lines are padded with spaces to the full column width. The import process trims all leading and trailing whitespace from each value, and automatically strips the prefix from part numbers before storing them.
 
 > **Note:** The exact column widths may vary between TVH file generations. If TVH provides updated column positions with a new file, contact your implementation partner to confirm the widths are aligned in the configuration.
+
+## Viewer and Import Permissions
+
+Assign **TVH Base Read** to every user who should view TVH images. It provides the read and execution access used by the image factboxes; it does not grant permission to import or replace image keys.
+
+Assign **TVH Image Import** only to users responsible for importing the TVH key file. This set includes the base read set and grants the direct image-key Insert and Delete permissions required for a full replacement. Other functional TVH permission sets include the base read set automatically, but administrators should still assign the base set to every intended image viewer.
 
 ---
 

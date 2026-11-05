@@ -2,19 +2,11 @@
 title: "TVH-SubmitOrder"
 parent: "TVH"
 nav_order: 40
-published: false
 ---
 
 # Submitting an Order to TVH
 
 The **Submit Order** action sends a released purchase order to TVH and confirms it as a live order. TVH responds with a vendor order number and confirmed pricing, which are written directly back to the purchase order and its lines.
-
----
-
-> 
-> ### <span style="color:CornflowerBlue">Note: this functionality is still being developed and is expected to become available in 2026 release wave 1 (May - October)</span>
-> #### <span style="color:CornflowerBlue">This is an estimated release and is subject to change.</span>
-> 
 
 ---
 
@@ -96,7 +88,7 @@ Review lines with a **TVH Submit Error** after submission and decide whether to 
 
 ### Order-level errors (blocking)
 
-If TVH rejects the entire order — for example, due to an account or authorisation issue — submission fails and no changes are made to the purchase order. The error message from TVH is shown on screen. Contact your TVH account manager if the error is not self-explanatory.
+If TVH rejects the entire order — for example, due to an account or authorisation issue — submission fails and the error message from TVH is shown on screen. If you accepted the prompt to release an open purchase order, that release is committed before the TVH request and the order remains released. No successful TVH order confirmation or price write-back is applied. Contact your TVH account manager if the error is not self-explanatory.
 
 ---
 

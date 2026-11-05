@@ -9,10 +9,3 @@ parent: "D2V"
 The Dysel D2V integration for TVH enables you to automate your pricing, ordering, and logistics, allowing you to work faster and more reliably.
 
 ---
-
-> 
-> ### <span style="color:CornflowerBlue">Note: this functionality is still being developed and is expected to become available in 2026 release wave 1 (May - October)</span>
-> #### <span style="color:CornflowerBlue">This is an estimated release and is subject to change.</span>
-> 
-
----

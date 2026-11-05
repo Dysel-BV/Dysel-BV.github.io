@@ -1,20 +1,12 @@
 ---
 title: "TVH-P&A"
 parent: "TVH"
-published: false
 nav_order: 30
 ---
 
 # Check Price and Availability
 
 The **Check Price and Availability** feature sends the item lines on a purchase order to TVH and retrieves current stock levels, account pricing, and item details. The results appear in a worksheet where you can review what TVH has on offer and optionally write prices and descriptions back to the purchase order.
-
----
-
-> 
-> ### <span style="color:CornflowerBlue">Note: this functionality is still being developed and is expected to become available in 2026 release wave 1 (May - October)</span>
-> #### <span style="color:CornflowerBlue">This is an estimated release and is subject to change.</span>
-> 
 
 ---
 
@@ -30,7 +22,7 @@ Before using Check Price and Availability, make sure:
 
 ## Opening the Check
 
-### From the ribbon[text](<../../../../../Additional Apps/D2VSuite/D2V TVH/App/docs/Setting Up Carrier Codes for TVH Warehouses.md>)
+### From the ribbon
 
 On the Purchase Order card, go to the **Prepare** tab in the ribbon. You will see a **D2V** button.
 
@@ -80,15 +72,16 @@ Rows shown in **orange** mean TVH returned an error for that specific item — f
 
 ## Update Options
 
-At the top of the results page you will find three options. All three are off by default. Switch on the ones you want **before** clicking OK.
+At the top of the results page you will find four options. Select the updates you want **before** clicking OK.
 
 | Option | What it does when you click OK |
 |---|---|
-| **Update Unit Price** | Copies the **Item Price** from TVH into the **Direct Unit Cost** on the matching purchase line. |
+| **Update Direct Unit Cost** | Copies the **Item Price** from TVH into the **Direct Unit Cost** on the matching purchase line. |
 | **Update Description** | Copies the **Description** from TVH into the **Description** on the matching purchase line. |
 | **Update Non-Returnable** | Updates the returnable flag on the purchase line to match the **Is Non-Returnable** value returned by TVH. |
+| **Update Item Attributes** | Writes TVH attribute values to Business Central item attributes and updates structured item fields, including Description, Description 2, and OEM Code. |
 
-> **Tip:** If you only want to check stock levels without changing anything on the purchase order, leave all three options off and click **Cancel** — no lines will be touched.
+> **Tip:** If you only want to check stock levels without applying changes, leave the update options off and click **Cancel** after reviewing the results.
 
 ---
 
@@ -113,7 +106,7 @@ If you see item errors, check the **Vendor Item No.** on those purchase lines. C
 
 If TVH rejects the entire request — for example because of an authentication problem or an account issue — an error message is shown immediately and no results page opens.
 
-Contact your administrator and ask them to run the **Test Connection** action on the TVH Account setup page to confirm the connection is working.
+Contact your administrator and ask them to run the **Test Connection** action from the **Interfaces** page to confirm the connection is working.
 
 ---
 

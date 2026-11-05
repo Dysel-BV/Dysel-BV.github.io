@@ -2,19 +2,11 @@
 title: "TVH-CarrierCodes"
 parent: "TVH"
 nav_order: 20
-published: false
 ---
 
 # Setting Up Carrier Codes for TVH Warehouses
 
 Each TVH warehouse mapping in D2V requires a **Default Carrier Code** — the transport carrier code that is sent to TVH when a purchase order is submitted for that warehouse. This guide explains how to retrieve the available carrier codes directly from TVH and assign the correct one to each warehouse row.
-
----
-
-> 
-> ### <span style="color:CornflowerBlue">Note: this functionality is still being developed and is expected to become available in 2026 release wave 1 (May - October)</span>
-> #### <span style="color:CornflowerBlue">This is an estimated release and is subject to change.</span>
-> 
 
 ---
 
