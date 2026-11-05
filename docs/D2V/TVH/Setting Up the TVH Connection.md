@@ -13,6 +13,8 @@ This guide walks you through the full configuration needed to connect Business C
 
 ## Prerequisites
 
+> **Note:** The D2V TVH integration is currently available only in North America.
+
 Before you start, make sure you have the following from TVH:
 
 | Item | Description |
